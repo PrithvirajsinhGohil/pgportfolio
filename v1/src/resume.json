@@ -1,0 +1,58 @@
+{
+  "personal": {
+    "name": "Prithvirajsinh Gohil",
+    "role": "Web Developer",
+    "email": "gohilhpg@gmail.com",
+    "phone": "+91 834-704-4107",
+    "location": "Bhavnagar, India",
+    "about": "Hardworking, sincere and positive approach with single-minded devotion toward new challenges to achieve target goals."
+  },
+  "social": [
+    {
+      "name": "Note",
+      "url": "#",
+      "text": "Resume content from 2021"
+    }
+  ],
+  "skills": [
+    "HTML/CSS",
+    "PHP",
+    "Windows",
+    "Ubuntu",
+    "Mint"
+  ],
+  "experience": [
+    {
+      "role": "PHP Developer",
+      "company": "Academic Project",
+      "duration": "7 Days",
+      "description": "Led a 5-member team to build a movie ticket booking and review system."
+    },
+    {
+      "role": "Exchange Claim Incharge",
+      "company": "Eternal Motors Pvt. Ltd. (Maruti Suzuki)",
+      "duration": "March 2015 - Present",
+      "description": "Verify and collect papers, identify and solve issues, manage daily report sheets."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.C.A.",
+      "university": "MK Bhavnagar University",
+      "year": "2015",
+      "grade": "2nd Class"
+    },
+    {
+      "degree": "H.S.C.",
+      "university": "G.S.E.B.",
+      "year": "2011",
+      "grade": "68.00%"
+    },
+    {
+      "degree": "S.S.C.",
+      "university": "G.S.E.B.",
+      "year": "2009",
+      "grade": "56.00%"
+    }
+  ]
+}

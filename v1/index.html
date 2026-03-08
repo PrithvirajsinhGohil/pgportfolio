@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Prithvirajsinh Gohil - Web Developer" />
+    <title>Prithvirajsinh Gohil | Portfolio</title>
+  </head>
+  <body>
+    <!-- Canvas for 3D Background/Orb -->
+    <canvas id="webgl"></canvas>
+
+    <!-- Overlay Vignette -->
+    <div class="vignette"></div>
+
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-content">
+        <div class="logo">PG</div>
+        <div class="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+           <span class="location">Based in India</span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="container hero-container">
+          <div class="hero-text">
+            <h1>Web Developer For</h1>
+            <div class="text-cycle-wrapper">
+              <span class="text-cycle">UI/UX</span>
+              <!-- Dynamically cycled in JS -->
+            </div>
+            <p class="hero-sub">Creating digital experiences that matter.</p>
+          </div>
+          <!-- 3D Orb Container (positioned absolutely or grid) -->
+          <div class="hero-visual"></div>
+        </div>
+        
+        <!-- Marquee -->
+        <div class="marquee-container">
+          <div class="marquee-text">PRITHVIRAJSINH GOHIL — WEB DEVELOPER — </div>
+        </div>
+      </section>
+
+      <!-- Work Section -->
+      <section id="work">
+        <div class="container">
+          <div class="section-header">
+            <h2>Featured Works <span class="count">02</span></h2>
+          </div>
+          <div class="projects-grid" id="projects-grid">
+            <!-- Projects injected via JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="container about-container">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p id="about-description">Loading...</p>
+            
+            <div class="resume-details">
+              <div class="detail-group">
+                <h3>Experience</h3>
+                <ul id="experience-list"></ul>
+              </div>
+              <div class="detail-group">
+                <h3>Education</h3>
+                <ul id="education-list"></ul>
+              </div>
+              <div class="detail-group">
+                <h3>Skills</h3>
+                <ul id="skills-list" class="skills-tags"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container footer-container">
+        <div class="footer-cta">
+          <h2>Let's create something<br>amazing together.</h2>
+          <a href="mailto:gohilhpg@gmail.com" class="email-link" id="contact-email">gohilhpg@gmail.com</a>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">© 2026 Prithvirajsinh Gohil</div>
+          <div class="socials">
+             <!-- Socials injected via JS -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
